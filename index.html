@@ -6,6 +6,8 @@
     <title>Hivemind VPN - Sua Segurança Online Começa Aqui</title>
     <!-- Adiciona o script do Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Adiciona a biblioteca do Font Awesome para os ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
@@ -192,10 +194,8 @@
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-12">Entre em Contato</h2>
                 <div class="max-w-xl mx-auto bg-[#172A45] p-8 rounded-2xl shadow-xl">
-                    <!-- O action do formulário foi alterado para usar o serviço Formspree -->
-                    <!-- Você deve ir ao site deles e criar um endpoint para o seu e-mail, e substituí-lo aqui -->
-                    <!-- O _subject também foi adicionado para facilitar a identificação da mensagem -->
-                    <form action="https://formspree.io/f/YOUR_UNIQUE_FORM_ID" method="POST" class="space-y-6">
+                    <!-- O action do formulário agora usa o Formsubmit -->
+                    <form action="https://formsubmit.co/daniel2augustus@gmail.com" method="POST" class="space-y-6">
                         <input type="hidden" name="_subject" value="Nova mensagem do site Hivemind VPN!">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-300">Nome</label>
